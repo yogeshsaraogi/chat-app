@@ -14,7 +14,7 @@ const Conversation = () => {
         width={"100%"}
         sx={{ flexGrow: 1, height: "100%", overflow: "auto" }}
       >
-        <Message />
+        <Message menu={true} />
       </Box>
       <Footer />
     </Stack>
